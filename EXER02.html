@@ -1,0 +1,20 @@
+<meta charset="utf-8">
+
+<script>
+
+   var idade1 = prompt("Quantos anos você tem?");
+   var idade2 = prompt("Quantos anos você tem?"); 
+   var idade3 = prompt("Quantos anos você tem?");
+   
+   
+    function calcularMedia(idade1,idade2,idade3){
+        var soma = idade1+idade2+idade3
+        var total =  soma/3
+        return total
+    }
+    
+   var media = calcularMedia( parseInt (idade1),parseInt(idade2),parseInt(idade3))
+    document.write ("A media da idade de vocês é: " + media);
+
+
+</script>

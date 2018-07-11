@@ -1,0 +1,21 @@
+    
+    <meta charset="utf-8" />
+    
+    <script>
+
+        var nomeAluno = prompt("Digite aqui o nome do aluno: " );
+        var nota1 = prompt("Qual foi sua primeira nota? " );
+        var nota2 = prompt("Qual foi sua segunda nota? " );
+        var nota3 = prompt("Qual foi sua terceira nota? " );
+
+        function calcularMedia(nota1,nota2,nota3){
+            var soma = nota1+nota2+nota3
+            var media = soma/3
+            return media
+        }
+
+           var total = calcularMedia( parseInt (nota1),parseInt(nota2),parseInt(nota3))
+             document.write ("A sua media  " + nomeAluno + " é : " + total);
+    
+    </script>
+    
